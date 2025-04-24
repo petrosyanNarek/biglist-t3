@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = 'https://biglist-t3-api-3.onrender.com/api';
 
 export const fetchItems = (params) => {
     return axios.get(`${API_BASE}/items`, { params });
